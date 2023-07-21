@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .nav {
+  padding: 0 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.container .nav .nav__item {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav__item .icon{
+  color: #fff;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  position: relative;
+}
+
+.create-appointment-btn {
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+}
+
+.appointment__container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.appointment__container .appointment_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appointment__people {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.people__patient {
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin-left: 3rem;
+}
+
+
+.create_app_input {
+  padding: .5rem;
+}
